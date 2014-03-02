@@ -1,0 +1,17 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Zach Wentz -- Developer -- @wentz__
+    Kelsea Everett -- Design -- @KelseaEverett
+
+# THANKS
+
+    HTML5Boilerplate
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    Normalize.css, jQuery, Modernizr
+    Jekyll, Github Pages
