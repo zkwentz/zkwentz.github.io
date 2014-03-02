@@ -9,6 +9,11 @@
 # THANKS
 
     HTML5Boilerplate
+    
+    Kettlebell Icon
+    Designed by Michael Rowe
+    Brunswick, Melbourne, AU 2012
+    The Noun Project (http://www.thenounproject.com/Mikhail1986)
 
 # TECHNOLOGY COLOPHON
 
