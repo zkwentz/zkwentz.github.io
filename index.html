@@ -1,13 +1,50 @@
 ---
 layout: default
-title: Your New Jekyll Site
+title: wentz.io
 ---
 
 <div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+  <section id="masthead">
+    <h1>ZachWentz;</h1>
+    <h2>I make mobile apps and websites.</h2>
+      
+    <div class="latest-tweet">
+        <p><span class="icon-tweet icon-white"></span>Latest Tweets</p>
+        <!-- TODO: Pull in latest tweet here. -->
+    </div>
+  </section>
+  <section class="work-history">
+        <article id="crossfit" class="job">
+            <div class="job-inner">
+                <p class="timeline">2013-Current</p>
+                <p class="company"><a href="http://www.crossfit.com" target="_blank">CrossFit, Inc.</a></p>
+                <p class="position">Senior Software Engineer</p>
+                <p class="url"><a href="http://www.crossfit.com" target="_blank">www.crossfit.com</a></p>
+            </div>
+        </article>
+        <article id="amplifi" class="job">
+            <div class="job-inner">
+                <p class="timeline">2012-2013</p>
+                <p class="company"><a href="http://www.amplificommerce.com" target="_blank">Amplifi Commerce</a></p>
+                <p class="position">Front-End Developer</p>
+                <p class="url"><a href="http://www.amplificommcere.com" target="_blank">www.amplificommerce.com</a></p>
+            </div>
+        </article>
+        <article id="docudesk" class="job">
+            <div class="job-inner">
+                <p class="timeline">2011-2012</p>
+                <p class="company"><a href="http://www.docudesk.com" target="_blank">DocuDesk</a></p>
+                <p class="position">Web Developer</p>
+                <p class="url"><a href="http://www.crossfit.om" target="_blank">www.docudesk.com</a></p>
+            </div>
+        </article>
+        <article id="crossfit" class="job">
+            <div class="job-inner">
+                <p class="timeline">2010-2011</p>
+                <p class="company"><a href="http://www.optimusfutures.com" target="_blank">Optimus Trading Group</a></p>
+                <p class="position">Consultant</p>
+                <p class="url"><a href="http://www.optimusfutures.com" target="_blank">www.optimusfutures.com</a></p>
+            </div>
+        </article>
+  </section>
 </div>
