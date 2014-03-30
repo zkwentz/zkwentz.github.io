@@ -185,9 +185,8 @@ h1, h2, h3, h4, h5, h6 {
 
 
 #credits {
-  background-color: #2b2b2b;
-  border-top: 1px solid rgba(255,255,255,0.5);
-  color: #FFF;
+  background-color: #FFF;
+  color: #000;
   font-size: 12px;
   font-size: 1.2rem;
 }
@@ -207,7 +206,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #credits a {
-  color: #FFF;
+  color: #000;
 }
 
 
