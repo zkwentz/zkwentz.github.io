@@ -266,8 +266,12 @@ h1, h2, h3, h4, h5, h6 {
      text-align: center;
    }
 
+   #masthead {
+       padding: 60px 20px;
+   }
+
    .work-history .job {
-     height: 83px;
+     height: 82px;
    }
 
    .work-history .job .job-inner {
