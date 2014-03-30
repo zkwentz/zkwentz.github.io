@@ -156,6 +156,10 @@ h1, h2, h3, h4, h5, h6 {
     clear: both;
 }
 
+#contact .contained {
+  max-width: 700px;
+}
+
 .network {
     float: left;
     display: inline-block;
@@ -164,7 +168,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .network span {
-    line-height: 245px;
+    line-height: 215px;
 }
 
 .button {
@@ -177,6 +181,33 @@ h1, h2, h3, h4, h5, h6 {
 
 .button:hover {
     background-color: #2b2b2b;
+}
+
+
+#credits {
+  background-color: #2b2b2b;
+  border-top: 1px solid rgba(255,255,255,0.5);
+  color: #FFF;
+  font-size: 12px;
+  font-size: 1.2rem;
+}
+
+#credits p {
+  float: left;
+  width:  50%;
+  display: inline-block;
+}
+
+#credits p:first-child {
+  text-align: left;
+}
+
+#credits p:last-child {
+  text-align: right;
+}
+
+#credits a {
+  color: #FFF;
 }
 
 
@@ -215,8 +246,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .icon-4x {
-    font-size: 120px;
-    font-size: 12rem;
+    font-size: 80px;
+    font-size: 8rem;
 }
 
 .icon-github:before {
@@ -309,6 +340,10 @@ h1, h2, h3, h4, h5, h6 {
      margin-top: 0px;
    }
 
+   #projects header {
+     height: 83px;
+     line-height: 83px;
+   }
 
    #projects header h1 {
        font-size: 36px;
@@ -335,17 +370,16 @@ h1, h2, h3, h4, h5, h6 {
      margin: 25px 0px;
    }
 
+   #contact .contained {
+     padding: 0% 20%;
+   }
 
+   .network span {
+     line-height: 110px;
+   }
 
-
-
-
-
-  .network span {
-    line-height: 135px;
-  }
-  .icon-4x {
-    font-size: 60px;
-    font-size: 6rem;
-  }
+   .icon-4x {
+     font-size: 30px;
+     font-size: 3rem;
+   }
 }
