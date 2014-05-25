@@ -1,0 +1,10 @@
+{
+	version: 1,
+	announcements: [
+		{
+			title: "Zach testing announcement",
+			body: "This is a whole lot of text.",
+			date: 2014-05-21
+		}
+	]
+}
