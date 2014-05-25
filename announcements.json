@@ -1,10 +1,15 @@
 {
-	version: 1,
-	announcements: [
-		{
-			title: "Zach testing announcement",
-			body: "This is a whole lot of text.",
-			date: 2014-05-21
-		}
-	]
+    "apps": [
+        {
+            "name": "instagrammar",
+            "announcements": [
+                {
+                    "title": "Zach testing announcement",
+                    "body": "This is a whole lot of text.",
+                    "date": "2014-05-21",
+                    "checksum": "7d16c945df3c355833e4e7650e1c2498"
+                }
+            ]
+        }
+    ]
 }
