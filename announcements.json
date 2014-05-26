@@ -4,6 +4,12 @@
             "name": "instagrammar",
             "announcements": [
                 {
+                    "title": "Instagrammar is coming!",
+                    "body": "The app will be released a week from today!",
+                    "date": "2014-05-26",
+                    "checksum": "6C17C2E1A1719488730385ADDCFC60AC"
+                },
+                {
                     "title": "Zach testing announcement",
                     "body": "This is a whole lot of text.",
                     "date": "2014-05-21",
