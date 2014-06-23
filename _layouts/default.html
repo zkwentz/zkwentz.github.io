@@ -8,19 +8,20 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="{{ site.url }}/img/favicon.ico" type="image/x-icon">
 
         <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
+        <link rel="stylesheet" href="{{ site.url }}/css/syntax.css">
 
         <!-- Custom CSS -->
         <link href='http://fonts.googleapis.com/css?family=Quicksand:300,400,700' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-        <script src="js/vendor/modernizr-2.7.1.min.js"></script>
+        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic,700italic' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="{{ site.url }}/css/normalize.css">
+        <link rel="stylesheet" href="{{ site.url }}/css/main.css">
+        <script src="../js/vendor/modernizr-2.7.1.min.js"></script>
 
     </head>
-    <body>
+    <body class="{{ page.class }}">
 
         <!--[if lt IE 8]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
@@ -29,8 +30,8 @@
         {{ content }}
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
-        <script data-main="js/app" src="js/require.min.js"></script>
+        <script>window.jQuery || document.write('<script src="{{ site.url }}/js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
+        <script data-main="{{ site.url }}/js/app" src="{{ site.url }}/js/require.min.js"></script>
 
         <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=

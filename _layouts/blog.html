@@ -1,0 +1,30 @@
+---
+layout: default
+class: blog
+---
+<div class="blog-wrapper">
+  <div class="hamburger">
+      <i class="icon"></i>
+  </div>
+  <!-- insert about popover here
+  <ul>
+    {% for post in site.posts %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+   /about popover -->
+
+  <div class="contained">
+    {{ content }}
+  </div>
+
+  <div class="paginator">
+    <ul>
+      <li class="newer"><a href="#"><i class="icon-back"></i>Newer Post</a></li>
+      <li class="favorite"><a href="#"><i class="icon-favorite"></i>Favorite Post</a></li>
+      <li class="older"><a href="#">Older Post<i class="icon-forward"></i></a></li>
+    </ul>
+  </div>
+</div>

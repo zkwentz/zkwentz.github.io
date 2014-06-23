@@ -18,6 +18,7 @@ body {
     font-size: 1.4rem;
 }
 
+
 #home {
     background-image: url(../img/zach.jpg);
     background-size: cover;
@@ -381,4 +382,132 @@ h1, h2, h3, h4, h5, h6 {
      font-size: 30px;
      font-size: 3rem;
    }
+}
+
+
+
+
+/* Blog styles */
+.blog {
+  background-color: #F4F4F4;
+  padding-top: 90px;
+}
+
+.blog .contained {
+  max-width: 650px;
+}
+
+.blog .contained img, .blog .featured-image {
+  margin-left: -150px;
+  max-width: 960px;
+  min-width: 960px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.blog .featured-image {
+  background-size: cover;
+  max-height: 350px;
+  height: 350px;
+  min-height: 350px;
+  margin-bottom: 90px;
+}
+
+.blog .post-date, .blog .post-body, .blog a {
+  font-family: 'Source Sans Pro', sans;
+  font-size: 18px;
+  font-size: 1.8rem;
+  color: #A3A3A3;
+}
+
+.blog .post-body p {
+  margin-top: 25px;
+  margin-bottom: 0px;
+}
+
+.blog .post-body > p:last-child {
+  margin-bottom: 80px;
+}
+
+.blog .post-body blockquote {
+  max-width: 575px;
+  margin: 0 auto;
+  font-weight: 300;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.blog .post-body blockquote p + p {
+  margin-top: 8px;
+}
+
+.blog .post-date {
+  margin-bottom: 5px;
+}
+
+.blog .post-title {
+  font-size: 30px;
+  font-size: 3rem;
+  line-height: 30px;
+  line-height: 3rem;
+  font-weight: normal;
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+
+.blog .post-body, .blog a {
+  color: #000;
+}
+
+.blog a {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.blog .paginator {
+  background-color: #FFF;
+  border: 1px solid #E1E1E1;
+  margin: 0 auto;
+  margin-bottom: 80px;
+  width: 1100px;
+  height: 50px;
+  line-height: 50px;
+  line-height: 5rem;
+  color: #E1E1E1;
+}
+
+.blog .paginator ul {
+  list-style-type: none;
+  display: table;
+  margin: 0px;
+  padding: 0px;
+}
+
+.blog .paginator ul li {
+  float: none;
+  width: 1%;
+  display: table-cell;
+  text-align: center;
+  line-height: 50px;
+  line-height: 5rem;
+  border-right: 1px solid #E1E1E1;
+  padding: 0px 15px;
+}
+
+.blog .paginator ul li:first-child {
+  text-align: left;
+}
+
+.blog .paginator ul li:last-child {
+  border-right: none;
+  text-align: right;
+}
+
+.blog .paginator .favorite {
+  width: 3%;
+}
+
+.blog .paginator ul li a {
+  color: #E1E1E1;
+  text-decoration: none;
 }

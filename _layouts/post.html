@@ -1,9 +1,16 @@
 ---
-layout: default
+layout: blog
 ---
-<h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
 
-<div class="post">
+{% if page.featured-image %}
+<div class="featured-image" style="background-image: url({{page.featured-image}})">
+  <!-- nothing here -->
+</div>
+{% endif %}
+
+<p class="post-date">{{ page.date | date_to_string }}</p>
+<h2 class="post-title">{{ page.title }}</h2>
+
+<div class="post-body">
 {{ content }}
 </div>
