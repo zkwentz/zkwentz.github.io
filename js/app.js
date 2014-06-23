@@ -7,4 +7,4 @@ requirejs.config({
 });
 
 // Load the main app module to start the app
-requirejs(["js/main"]);
+requirejs(["/js/main.js"]);
