@@ -1,0 +1,15 @@
+{
+    "apps": [
+        {
+            "name": "instagrammar",
+            "announcements": [
+                {
+                    "title": "InstaPress is coming!",
+                    "body": "The app will be released a week from today!",
+                    "date": "2014-05-26",
+                    "checksum": "6C17C2E1A1719488730385ADDCFC7C"
+                }
+            ]
+        }
+    ]
+}
