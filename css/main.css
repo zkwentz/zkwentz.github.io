@@ -18,6 +18,13 @@ body {
     font-size: 1.4rem;
 }
 
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
 
 #home {
     background-image: url(../img/zach.jpg);
@@ -409,6 +416,11 @@ h1, h2, h3, h4, h5, h6 {
   padding: 90px;
 }
 
+.is-flipped #menu {
+  overflow-y: scroll;
+  -webkit-overflow-scroll: touch;
+}
+
 #menu a {
   text-decoration: none;
 }
@@ -424,8 +436,17 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 5;
 }
 
+
 .blog .blog-wrapper {
   padding-top: 90px;
+  padding-bottom: 75px;
+  display: block;
+  position:absolute;
+  height:auto;
+  bottom:0;
+  top:0;
+  left:0;
+  right:0;
 }
 
 .blog .contained {
@@ -511,12 +532,19 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #FFF;
   border: 1px solid #E1E1E1;
   margin: 0 auto;
-  margin-bottom: 80px;
   width: 1100px;
   height: 50px;
   line-height: 50px;
   line-height: 5rem;
   color: #E1E1E1;
+  margin-left: -550px;
+  left: 50%;
+  bottom: 25px;
+  position: relative;
+}
+
+.blog.is-flipped .paginator {
+  display: none;
 }
 
 .blog .paginator ul {
@@ -574,9 +602,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* flip the pane when hovered */
-.blog-wrapper.is-flipped {
+.is-flipped .blog-wrapper{
 	transform: rotateY(180deg);
   -webkit-transform: rotateY(180deg);
+  overflow: initial;
 }
 
 /* flip speed goes here */
@@ -585,6 +614,8 @@ h1, h2, h3, h4, h5, h6 {
   transform-style: preserve-3d;
   -webkit-transition: 0.6s;
   -webkit-transform-style: preserve-3d;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
 }
 
 /* hide back of pane during swap */
